@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tigo_TigoMoney>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Payment />
+                <Mage_Sales />
+            </depends>
+        </Tigo_TigoMoney>
+    </modules>
+</config>

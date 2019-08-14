@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Tigo_TigoMoney",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Tigo Money Payment Gateway for El Salvador",
+    "authors": [
+    {
+        "name": "Hugo Barrientos",
+        "email": "hugol.barrientos@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

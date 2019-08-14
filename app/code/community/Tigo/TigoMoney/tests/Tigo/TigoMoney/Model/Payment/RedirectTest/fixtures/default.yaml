@@ -1,0 +1,3 @@
+config:
+  default/web/seo/use_rewrites: 1
+  default/payment/tigo_tigomoney/active: 1

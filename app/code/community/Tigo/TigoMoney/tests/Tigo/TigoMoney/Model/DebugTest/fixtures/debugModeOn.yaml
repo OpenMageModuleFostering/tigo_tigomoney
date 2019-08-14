@@ -1,0 +1,2 @@
+config:
+  default/payment/tigo_tigomoney/debug_mode: 1

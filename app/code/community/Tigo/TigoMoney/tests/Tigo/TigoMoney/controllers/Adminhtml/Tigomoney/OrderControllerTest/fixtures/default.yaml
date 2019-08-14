@@ -1,0 +1,2 @@
+config:
+  default/web/seo/use_rewrites: 0

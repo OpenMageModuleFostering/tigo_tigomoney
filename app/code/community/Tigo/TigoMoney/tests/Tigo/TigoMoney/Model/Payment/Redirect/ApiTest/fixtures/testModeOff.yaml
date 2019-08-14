@@ -1,0 +1,2 @@
+config:
+  default/payment/tigo_tigomoney/test_mode: 0

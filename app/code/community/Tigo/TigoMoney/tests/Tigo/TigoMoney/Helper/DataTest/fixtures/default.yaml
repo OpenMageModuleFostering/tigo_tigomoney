@@ -1,0 +1,13 @@
+config:
+  default/web/seo/use_rewrites: 1
+  default/payment/tigo_tigomoney/client_id: 123
+  default/payment/tigo_tigomoney/client_secret: asdf123fdsa
+  default/payment/tigo_tigomoney/merchant_account: zaq1xsw2cde3
+  default/payment/tigo_tigomoney/merchant_id: 98098098
+  default/payment/tigo_tigomoney/merchant_pin: 6464646737373
+  default/payment/tigo_tigomoney/merchant_reference: Amazon
+  default/payment/tigo_tigomoney/test_mode: 1
+  default/payment/tigo_tigomoney/debug_mode: 1
+  default/payment/tigo_tigomoney/description: Test Description
+  default/payment/tigo_tigomoney/failure_continue_shopping_url: http://google.com/
+  default/payment/tigo_tigomoney/success_continue_shopping_url: http://facebook.com/

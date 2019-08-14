@@ -1,0 +1,19 @@
+<?php /** @var Tigo_TigoMoney_Block_Payment_Redirect_Form $this */ ?>
+<?php $_code=$this->getMethodCode() ?>
+<ul class="form-list" id="payment_form_<?php echo $_code ?>" style="display:none;">
+    <li>
+        <div class="<?php echo $this->getMethodCode() ?>-instructions-content">
+            <img src="<?php echo $this->getSkinUrl('tigo_tigomoney/images/phones.png'); ?>" style="float:right" />
+            <?php echo $this->escapeHtml($this->getDescription()); ?>
+        </div>
+    </li>
+    <li>
+        <label for="<?php echo $_code ?>_phone_number" class="required"><em>*</em><?php echo $this->__('Enter your TIGO Phone Number') ?></label>
+        <div class="input-box">
+            <input type="text" id="<?php echo $_code ?>_phone_number" name="payment[<?php echo $_code ?>_phone_number]"
+                   title="<?php echo Mage::helper('core')->jsQuoteEscape($this->__('Enter your TIGO Phone Number')) ?>"
+                   class="input-text required-entry validate-length maximum-length-8 minimum-length-8 validate-digits"
+                   value="" />
+        </div>
+    </li>
+</ul>
